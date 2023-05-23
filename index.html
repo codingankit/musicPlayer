@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./scripts/style.css" />
+    <script src="./scripts/main.js" defer></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <h2 id="heading">Music Player</h2>
+        <hr id="hr" />
+      </div>
+      <div id="musicBox">
+        <h3 id="musicName">Kal Ho Na Ho</h3>
+        <div id="loaderDiv" style="display:none">
+          <div class="custom-loader"></div>
+        </div>
+      </div>
+      <div id="progressBox">
+        <div id="timings">
+          <span id="currentSongTime">00.00</span>
+          <span id="songDuration">00.00</span>
+        </div>
+        <input type="range" id="progressRange" value="0" min="0" max="100" />
+      </div>
+      <div id="btnDiv">
+        <span class="material-symbols-rounded" id="previousBtn">
+          skip_previous
+        </span>
+        <span class="material-symbols-rounded" id="pauseBtn" style="display:none">
+          pause_circle
+        </span>
+        <span class="material-symbols-rounded" id="playBtn">
+          play_circle
+        </span>
+        <span class="material-symbols-rounded" id="nextBtn"> skip_next </span>
+      </div>
+    </div>
+  </body>
+</html>
