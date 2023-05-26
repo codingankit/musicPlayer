@@ -84,3 +84,7 @@ Contributions are welcome! If you have any suggestions or improvements, please s
 Feel free to customize the `README.md` file to include any additional information specific to your project. Make sure to update the sections such as the "Demo" link, "Getting Started" instructions information with the relevant details.
 
 Remember to include any necessary attribution or credits for external resources used in your project, as well as any instructions or guidelines for potential contributors.
+
+## License
+
+This project is licensed under the GNU General Public License v2.0. You can find the full text of the license in the [LICENSE](LICENSE) file.
